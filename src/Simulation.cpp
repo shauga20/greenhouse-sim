@@ -22,6 +22,9 @@ void Simulation::Run() {
     std::stringstream ss;
 
     Plants Blomst;
+    Sunflower Sunflower;
+    Corn Corn;
+    Rose Rose;
 
     while (window.isOpen()) {
 
@@ -56,6 +59,9 @@ void Simulation::Run() {
         window.draw(Green);
 
         Blomst.grow(hour,window);
+        Sunflower.grow(hour,window);
+        Corn.grow(hour,window);
+        Rose.grow(hour,window);
 
         ss << std::to_string(hour) << ':' << std::to_string(minutes);
         clock_time.setString(ss.str());

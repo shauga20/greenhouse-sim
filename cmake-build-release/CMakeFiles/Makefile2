@@ -279,7 +279,7 @@ CMakeFiles/greenhouse-sim.dir/all: libs/SFML/src/SFML/Window/CMakeFiles/sfml-win
 CMakeFiles/greenhouse-sim.dir/all: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=7,8,9,10 "Built target greenhouse-sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=7,8,9,10,11,12 "Built target greenhouse-sim"
 .PHONY : CMakeFiles/greenhouse-sim.dir/all
 
 # Build rule for subdir invocation for target.
@@ -309,12 +309,12 @@ CMakeFiles/imgui-example.dir/all: libs/SFML/src/SFML/Window/CMakeFiles/sfml-wind
 CMakeFiles/imgui-example.dir/all: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui-example.dir\build.make CMakeFiles/imgui-example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\imgui-example.dir\build.make CMakeFiles/imgui-example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=11 "Built target imgui-example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=13 "Built target imgui-example"
 .PHONY : CMakeFiles/imgui-example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/imgui-example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/imgui-example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 0
 .PHONY : CMakeFiles/imgui-example.dir/rule
@@ -336,7 +336,7 @@ CMakeFiles/imgui-example.dir/clean:
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\System\CMakeFiles\sfml-system.dir\build.make libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\System\CMakeFiles\sfml-system.dir\build.make libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=64,65,66,67,68,69,70,71,72,73,74,75,76 "Built target sfml-system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=65,66,67,68,69,70,71,72,73,74,75,76,77 "Built target sfml-system"
 .PHONY : libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 
 # Build rule for subdir invocation for target.
@@ -363,7 +363,7 @@ libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/clean:
 libs/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make libs/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make libs/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=54 "Built target sfml-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=55 "Built target sfml-main"
 .PHONY : libs/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -390,12 +390,12 @@ libs/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/clean:
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target sfml-window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target sfml-window"
 .PHONY : libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 
 # Build rule for subdir invocation for target.
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 0
 .PHONY : libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule
@@ -417,7 +417,7 @@ libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/clean:
 libs/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/all: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Network\CMakeFiles\sfml-network.dir\build.make libs/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Network\CMakeFiles\sfml-network.dir\build.make libs/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=55,56,57,58,59,60,61,62,63 "Built target sfml-network"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=56,57,58,59,60,61,62,63,64 "Built target sfml-network"
 .PHONY : libs/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 
 # Build rule for subdir invocation for target.
@@ -445,12 +445,12 @@ libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: libs/SFML/src/SFML
 libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53 "Built target sfml-graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54 "Built target sfml-graphics"
 .PHONY : libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 
 # Build rule for subdir invocation for target.
 libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 60
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 0
 .PHONY : libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
@@ -472,7 +472,7 @@ libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean:
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs\SFML\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target sfml-audio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target sfml-audio"
 .PHONY : libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 
 # Build rule for subdir invocation for target.
@@ -506,7 +506,7 @@ libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/all: libs/SFML/src/SFML/Window/CMakeFi
 
 # Build rule for subdir invocation for target.
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 0
 .PHONY : libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/rule
