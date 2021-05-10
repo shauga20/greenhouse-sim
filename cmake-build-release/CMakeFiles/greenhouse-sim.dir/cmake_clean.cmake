@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.obj"
+  "CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.obj"
+  "CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.obj"
   "CMakeFiles/greenhouse-sim.dir/src/greenhouse-sim.cpp.obj"
   "greenhouse-sim.exe"
   "greenhouse-sim.exe.manifest"

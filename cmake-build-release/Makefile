@@ -291,6 +291,87 @@ ImGui-SFML/fast:
 	$(MAKE) $(MAKESILENT) -f libs\imgui-sfml\CMakeFiles\ImGui-SFML.dir\build.make libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/build
 .PHONY : ImGui-SFML/fast
 
+src/Plants.obj: src/Plants.cpp.obj
+
+.PHONY : src/Plants.obj
+
+# target to build an object file
+src/Plants.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.obj
+.PHONY : src/Plants.cpp.obj
+
+src/Plants.i: src/Plants.cpp.i
+
+.PHONY : src/Plants.i
+
+# target to preprocess a source file
+src/Plants.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.i
+.PHONY : src/Plants.cpp.i
+
+src/Plants.s: src/Plants.cpp.s
+
+.PHONY : src/Plants.s
+
+# target to generate assembly for a file
+src/Plants.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.s
+.PHONY : src/Plants.cpp.s
+
+src/Simulation.obj: src/Simulation.cpp.obj
+
+.PHONY : src/Simulation.obj
+
+# target to build an object file
+src/Simulation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.obj
+.PHONY : src/Simulation.cpp.obj
+
+src/Simulation.i: src/Simulation.cpp.i
+
+.PHONY : src/Simulation.i
+
+# target to preprocess a source file
+src/Simulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.i
+.PHONY : src/Simulation.cpp.i
+
+src/Simulation.s: src/Simulation.cpp.s
+
+.PHONY : src/Simulation.s
+
+# target to generate assembly for a file
+src/Simulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.s
+.PHONY : src/Simulation.cpp.s
+
+src/WaterContainer.obj: src/WaterContainer.cpp.obj
+
+.PHONY : src/WaterContainer.obj
+
+# target to build an object file
+src/WaterContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.obj
+.PHONY : src/WaterContainer.cpp.obj
+
+src/WaterContainer.i: src/WaterContainer.cpp.i
+
+.PHONY : src/WaterContainer.i
+
+# target to preprocess a source file
+src/WaterContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.i
+.PHONY : src/WaterContainer.cpp.i
+
+src/WaterContainer.s: src/WaterContainer.cpp.s
+
+.PHONY : src/WaterContainer.s
+
+# target to generate assembly for a file
+src/WaterContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.s
+.PHONY : src/WaterContainer.cpp.s
+
 src/greenhouse-sim.obj: src/greenhouse-sim.cpp.obj
 
 .PHONY : src/greenhouse-sim.obj
@@ -366,6 +447,15 @@ help:
 	@echo ... sfml-network
 	@echo ... sfml-system
 	@echo ... sfml-window
+	@echo ... src/Plants.obj
+	@echo ... src/Plants.i
+	@echo ... src/Plants.s
+	@echo ... src/Simulation.obj
+	@echo ... src/Simulation.i
+	@echo ... src/Simulation.s
+	@echo ... src/WaterContainer.obj
+	@echo ... src/WaterContainer.i
+	@echo ... src/WaterContainer.s
 	@echo ... src/greenhouse-sim.obj
 	@echo ... src/greenhouse-sim.i
 	@echo ... src/greenhouse-sim.s

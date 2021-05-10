@@ -89,14 +89,62 @@ CMakeFiles/greenhouse-sim.dir/src/greenhouse-sim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse-sim.dir/src/greenhouse-sim.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chri3\CLionProjects\greenhouse-sim\src\greenhouse-sim.cpp -o CMakeFiles\greenhouse-sim.dir\src\greenhouse-sim.cpp.s
 
+CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.obj: CMakeFiles/greenhouse-sim.dir/flags.make
+CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.obj: CMakeFiles/greenhouse-sim.dir/includes_CXX.rsp
+CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.obj: ../src/Simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\greenhouse-sim.dir\src\Simulation.cpp.obj -c C:\Users\chri3\CLionProjects\greenhouse-sim\src\Simulation.cpp
+
+CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chri3\CLionProjects\greenhouse-sim\src\Simulation.cpp > CMakeFiles\greenhouse-sim.dir\src\Simulation.cpp.i
+
+CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chri3\CLionProjects\greenhouse-sim\src\Simulation.cpp -o CMakeFiles\greenhouse-sim.dir\src\Simulation.cpp.s
+
+CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.obj: CMakeFiles/greenhouse-sim.dir/flags.make
+CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.obj: CMakeFiles/greenhouse-sim.dir/includes_CXX.rsp
+CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.obj: ../src/Plants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\greenhouse-sim.dir\src\Plants.cpp.obj -c C:\Users\chri3\CLionProjects\greenhouse-sim\src\Plants.cpp
+
+CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chri3\CLionProjects\greenhouse-sim\src\Plants.cpp > CMakeFiles\greenhouse-sim.dir\src\Plants.cpp.i
+
+CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chri3\CLionProjects\greenhouse-sim\src\Plants.cpp -o CMakeFiles\greenhouse-sim.dir\src\Plants.cpp.s
+
+CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.obj: CMakeFiles/greenhouse-sim.dir/flags.make
+CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.obj: CMakeFiles/greenhouse-sim.dir/includes_CXX.rsp
+CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.obj: ../src/WaterContainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\greenhouse-sim.dir\src\WaterContainer.cpp.obj -c C:\Users\chri3\CLionProjects\greenhouse-sim\src\WaterContainer.cpp
+
+CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chri3\CLionProjects\greenhouse-sim\src\WaterContainer.cpp > CMakeFiles\greenhouse-sim.dir\src\WaterContainer.cpp.i
+
+CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chri3\CLionProjects\greenhouse-sim\src\WaterContainer.cpp -o CMakeFiles\greenhouse-sim.dir\src\WaterContainer.cpp.s
+
 # Object files for target greenhouse-sim
 greenhouse__sim_OBJECTS = \
-"CMakeFiles/greenhouse-sim.dir/src/greenhouse-sim.cpp.obj"
+"CMakeFiles/greenhouse-sim.dir/src/greenhouse-sim.cpp.obj" \
+"CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.obj" \
+"CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.obj" \
+"CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.obj"
 
 # External object files for target greenhouse-sim
 greenhouse__sim_EXTERNAL_OBJECTS =
 
 greenhouse-sim.exe: CMakeFiles/greenhouse-sim.dir/src/greenhouse-sim.cpp.obj
+greenhouse-sim.exe: CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.obj
+greenhouse-sim.exe: CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.obj
+greenhouse-sim.exe: CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.obj
 greenhouse-sim.exe: CMakeFiles/greenhouse-sim.dir/build.make
 greenhouse-sim.exe: libs/SFML/lib/libsfml-graphics-s.a
 greenhouse-sim.exe: libs/imgui-sfml/libImGui-SFML.a
@@ -107,7 +155,7 @@ greenhouse-sim.exe: libs/SFML/lib/libsfml-system-s.a
 greenhouse-sim.exe: CMakeFiles/greenhouse-sim.dir/linklibs.rsp
 greenhouse-sim.exe: CMakeFiles/greenhouse-sim.dir/objects1.rsp
 greenhouse-sim.exe: CMakeFiles/greenhouse-sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable greenhouse-sim.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable greenhouse-sim.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\greenhouse-sim.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
