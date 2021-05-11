@@ -4,7 +4,6 @@ project(greenhouse-sim)
 set(BUILD_SHARED_LIBS FALSE CACHE BOOL "Setting SFML to build static libraries" FORCE)
 set(SFML_USE_STATIC_STD_LIBS TRUE CACHE BOOL "Use static versions of the C++ std libs" FORCE)
 add_subdirectory(libs/SFML)
-
 set(IMGUI_SFML_FIND_SFML OFF CACHE BOOL "Do not use find_package to find SFML." FORCE)
 set(IMGUI_DIR ${PROJECT_SOURCE_DIR}/libs/imgui CACHE PATH "imgui top-level directory." FORCE)
 set(IMGUI_SFML_IMGUI_DEMO ON CACHE BOOL "make the demo window" FORCE)
