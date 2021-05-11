@@ -291,6 +291,33 @@ ImGui-SFML/fast:
 	$(MAKE) $(MAKESILENT) -f libs\imgui-sfml\CMakeFiles\ImGui-SFML.dir\build.make libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/build
 .PHONY : ImGui-SFML/fast
 
+src/Container.obj: src/Container.cpp.obj
+
+.PHONY : src/Container.obj
+
+# target to build an object file
+src/Container.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Container.cpp.obj
+.PHONY : src/Container.cpp.obj
+
+src/Container.i: src/Container.cpp.i
+
+.PHONY : src/Container.i
+
+# target to preprocess a source file
+src/Container.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Container.cpp.i
+.PHONY : src/Container.cpp.i
+
+src/Container.s: src/Container.cpp.s
+
+.PHONY : src/Container.s
+
+# target to generate assembly for a file
+src/Container.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Container.cpp.s
+.PHONY : src/Container.cpp.s
+
 src/Corn.obj: src/Corn.cpp.obj
 
 .PHONY : src/Corn.obj
@@ -426,33 +453,6 @@ src/Sunflower.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Sunflower.cpp.s
 .PHONY : src/Sunflower.cpp.s
 
-src/WaterContainer.obj: src/WaterContainer.cpp.obj
-
-.PHONY : src/WaterContainer.obj
-
-# target to build an object file
-src/WaterContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.obj
-.PHONY : src/WaterContainer.cpp.obj
-
-src/WaterContainer.i: src/WaterContainer.cpp.i
-
-.PHONY : src/WaterContainer.i
-
-# target to preprocess a source file
-src/WaterContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.i
-.PHONY : src/WaterContainer.cpp.i
-
-src/WaterContainer.s: src/WaterContainer.cpp.s
-
-.PHONY : src/WaterContainer.s
-
-# target to generate assembly for a file
-src/WaterContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/WaterContainer.cpp.s
-.PHONY : src/WaterContainer.cpp.s
-
 src/greenhouse-sim.obj: src/greenhouse-sim.cpp.obj
 
 .PHONY : src/greenhouse-sim.obj
@@ -528,6 +528,9 @@ help:
 	@echo ... sfml-network
 	@echo ... sfml-system
 	@echo ... sfml-window
+	@echo ... src/Container.obj
+	@echo ... src/Container.i
+	@echo ... src/Container.s
 	@echo ... src/Corn.obj
 	@echo ... src/Corn.i
 	@echo ... src/Corn.s
@@ -543,9 +546,6 @@ help:
 	@echo ... src/Sunflower.obj
 	@echo ... src/Sunflower.i
 	@echo ... src/Sunflower.s
-	@echo ... src/WaterContainer.obj
-	@echo ... src/WaterContainer.i
-	@echo ... src/WaterContainer.s
 	@echo ... src/greenhouse-sim.obj
 	@echo ... src/greenhouse-sim.i
 	@echo ... src/greenhouse-sim.s

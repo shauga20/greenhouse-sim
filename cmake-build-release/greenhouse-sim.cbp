@@ -1317,6 +1317,12 @@
 		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/libs/imgui/misc/cpp/imgui_stdlib.h">
 			<Option target="ImGui-SFML"/>
 		</Unit>
+		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/Container.cpp">
+			<Option target="greenhouse-sim"/>
+		</Unit>
+		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/Container.h">
+			<Option target="greenhouse-sim"/>
+		</Unit>
 		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/Corn.cpp">
 			<Option target="greenhouse-sim"/>
 		</Unit>
@@ -1336,12 +1342,6 @@
 			<Option target="greenhouse-sim"/>
 		</Unit>
 		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sunflower.cpp">
-			<Option target="greenhouse-sim"/>
-		</Unit>
-		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/WaterContainer.cpp">
-			<Option target="greenhouse-sim"/>
-		</Unit>
-		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/WaterContainer.h">
 			<Option target="greenhouse-sim"/>
 		</Unit>
 		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/greenhouse-sim.cpp">

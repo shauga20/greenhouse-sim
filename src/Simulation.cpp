@@ -39,7 +39,7 @@ void Simulation::Run() {
         window.clear();
 
         sf::Texture greenhouse_sprite;
-        if (!greenhouse_sprite.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/greenhouse.png")) {
+        if (!greenhouse_sprite.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/greenhouse.png")) {
             return;
         }
         ss.str(std::string());
