@@ -33,7 +33,7 @@ void Corn::grow(int hour, sf::RenderWindow &window) {
         Corn_sprite.setTexture(Corn_texture, true);
         Corn_sprite.setPosition(574.f, 201.f);
         window.draw(Corn_sprite);
-    } else if (height < 5 && height > 4) {
+    } else if (height > 4) {
         stage = 5;
         Corn_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Corn5T.png");
         Corn_sprite.setTexture(Corn_texture, true);

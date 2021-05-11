@@ -27,7 +27,7 @@ void Rose::grow(int hour, sf::RenderWindow &window) {
         Rose_sprite.setTexture(Rose_texture, true);
         Rose_sprite.setPosition(574.f, 201.f);
         window.draw(Rose_sprite);
-    } else if (height < 4 && height > 3) {
+    } else if (height > 3) {
         stage = 4;
         Rose_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Rose4.png");
         Rose_sprite.setTexture(Rose_texture, true);
