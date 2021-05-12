@@ -2,6 +2,9 @@
 #include "Simulation.h"
 #include <iostream>
 #include "Plants.h"
+#include <cstdlib>
+#include <ctime>
+#include "Container.h"
 //Private
 Simulation::Simulation() : window(sf::VideoMode(800, 600), "Greenhouse Simulator") {
     window.setFramerateLimit(60);
@@ -25,9 +28,9 @@ void Simulation::Run() {
     Sunflower Sunflower;
     Corn Corn;
     Rose Rose;
+    Container Container;
 
     while (window.isOpen()) {
-
 // check all the window's events that were triggered since the last
 // iteration of the loop
         while (window.pollEvent(event)) {
@@ -62,6 +65,7 @@ void Simulation::Run() {
         Sunflower.grow(hour,window);
         Corn.grow(hour,window);
         Rose.grow(hour,window);
+        Container.getAmount(hour,window);
 
         ss << std::to_string(hour) << ':' << std::to_string(minutes);
         clock_time.setString(ss.str());

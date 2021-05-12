@@ -2,6 +2,8 @@
 #include "SFML/Graphics.hpp"
 #include <iostream>
 #include "Simulation.h"
+#include <cstdlib>
+#include <ctime>
 #include "Plants.h"
 
 

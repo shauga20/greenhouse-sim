@@ -1,16 +1,19 @@
 #pragma once
+#include "SFML/Graphics.hpp"
+#include <sstream>
+#include <iostream>
 
 class Container {
 public:
-    int getStorage();
-    bool isFull();
-    double getPercent();
-    void withdraw(double amount);
-    void collection(double amount);
-    explicit Container(int storage, int cap);
-
-
+    void getAmount(int hour,sf::RenderWindow &window);
+    void getRain(int hour);
+    double WaterAmount();
+    double RainAmount();
+    Container();
+    void init();
 private:
-    int capacity;
-    int containing;
+    double Amount=0.0;
+    double Rain=0.0;
+    sf::Texture Container_texture;
+    sf::Sprite Container_sprite;
 };
