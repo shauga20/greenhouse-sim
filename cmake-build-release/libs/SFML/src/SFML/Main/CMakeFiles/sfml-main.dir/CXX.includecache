@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/SFML/include/SFML/Config.hpp
+TargetConditionals.h
+../libs/SFML/include/SFML/TargetConditionals.h
+
+C:/Users/chri3/CLionProjects/greenhouse-sim/libs/SFML/src/SFML/Main/MainWin32.cpp
+SFML/Config.hpp
+-
+windows.h
+-
+

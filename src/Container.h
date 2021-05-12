@@ -25,4 +25,7 @@ private:
 
     sf::Texture Container_texture4;
     sf::Sprite Container_sprite4;
+
+    sf::Texture Rain_texture;
+    sf::Sprite Rain_sprite;
 };
