@@ -28,8 +28,11 @@ void Container::getAmount(int hour,sf::RenderWindow &window) {
     if (hour == 3 & hour < 4) {
         Amount=66;
     }
-    else if (hour == 4) {
+    else if (hour == 4 & hour < 5) {
         Amount=33;
+    }
+    else if (hour == 5) {
+        Amount=0;
     }
 
     if (Amount == 0) {

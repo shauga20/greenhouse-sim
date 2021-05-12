@@ -16,10 +16,13 @@ private:
     double Rain=0.0;
     sf::Texture Container_texture;
     sf::Sprite Container_sprite;
+
     sf::Texture Container_texture2;
     sf::Sprite Container_sprite2;
+
     sf::Texture Container_texture3;
     sf::Sprite Container_sprite3;
+
     sf::Texture Container_texture4;
     sf::Sprite Container_sprite4;
 };
