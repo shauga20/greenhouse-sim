@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/chri3/CLionProjects/greenhouse-sim/libs/SFML/src/SFML
+# Install script for directory: E:/Uni_ting/GreenhouseSim/libs/SFML/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,17 +34,17 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "E:/Uni_ting/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/src/SFML/System/cmake_install.cmake")
-  include("C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/src/SFML/Main/cmake_install.cmake")
-  include("C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/src/SFML/Window/cmake_install.cmake")
-  include("C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/src/SFML/Network/cmake_install.cmake")
-  include("C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/src/SFML/Graphics/cmake_install.cmake")
-  include("C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/src/SFML/Audio/cmake_install.cmake")
+  include("E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/src/SFML/System/cmake_install.cmake")
+  include("E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/src/SFML/Main/cmake_install.cmake")
+  include("E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/src/SFML/Window/cmake_install.cmake")
+  include("E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/src/SFML/Network/cmake_install.cmake")
+  include("E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/src/SFML/Graphics/cmake_install.cmake")
+  include("E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

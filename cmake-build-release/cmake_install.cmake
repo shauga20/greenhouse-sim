@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/chri3/CLionProjects/greenhouse-sim
+# Install script for directory: E:/Uni_ting/GreenhouseSim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,17 +34,17 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "E:/Uni_ting/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/cmake_install.cmake")
+  include("E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/imgui-sfml/cmake_install.cmake")
+  include("E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/imgui-sfml/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Uni_ting/GreenhouseSim/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\chri3\CLionProjects\greenhouse-sim
+CMAKE_SOURCE_DIR = E:\Uni_ting\GreenhouseSim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release
+CMAKE_BINARY_DIR = E:\Uni_ting\GreenhouseSim\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,14 +144,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\libs\SFML\src\SFML\\CMakeFiles\progress.marks
-	cd /d C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release\CMakeFiles 0
+	cd /d E:\Uni_ting\GreenhouseSim\cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start E:\Uni_ting\GreenhouseSim\cmake-build-release\CMakeFiles E:\Uni_ting\GreenhouseSim\cmake-build-release\libs\SFML\src\SFML\\CMakeFiles\progress.marks
+	cd /d E:\Uni_ting\GreenhouseSim\cmake-build-release && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Uni_ting\GreenhouseSim\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/clean
+	cd /d E:\Uni_ting\GreenhouseSim\cmake-build-release && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,17 +161,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/preinstall
+	cd /d E:\Uni_ting\GreenhouseSim\cmake-build-release && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/preinstall
+	cd /d E:\Uni_ting\GreenhouseSim\cmake-build-release && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/SFML/src/SFML/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d E:\Uni_ting\GreenhouseSim\cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -197,6 +197,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\chri3\CLionProjects\greenhouse-sim\cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d E:\Uni_ting\GreenhouseSim\cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

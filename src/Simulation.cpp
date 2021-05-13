@@ -18,7 +18,7 @@ void Simulation::Run() {
     sf::Text clock_time;
     clock_time.setPosition(700, 50);
     sf::Font font;
-    font.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/32441506567156636049eb850b53f02a.ttf");
+    font.loadFromFile("../Sprites/32441506567156636049eb850b53f02a.ttf");
     clock_time.setFont(font);
     clock_time.setCharacterSize(34);
     clock_time.setFillColor(sf::Color::White);
@@ -43,7 +43,7 @@ void Simulation::Run() {
         window.clear();
 
         sf::Texture greenhouse_sprite;
-        if (!greenhouse_sprite.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/greenhouse.png")) {
+        if (!greenhouse_sprite.loadFromFile("../Sprites/greenhouse.png")) {
             return;
         }
         ss.str(std::string());

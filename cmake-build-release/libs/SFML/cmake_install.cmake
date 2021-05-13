@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/chri3/CLionProjects/greenhouse-sim/libs/SFML
+# Install script for directory: E:/Uni_ting/GreenhouseSim/libs/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,34 +34,34 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "E:/Uni_ting/mingw64/bin/objdump.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/chri3/CLionProjects/greenhouse-sim/libs/SFML/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "E:/Uni_ting/GreenhouseSim/libs/SFML/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SFML" TYPE FILE FILES "C:/Users/chri3/CLionProjects/greenhouse-sim/libs/SFML/license.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SFML" TYPE FILE FILES "E:/Uni_ting/GreenhouseSim/libs/SFML/license.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SFML" TYPE FILE FILES "C:/Users/chri3/CLionProjects/greenhouse-sim/libs/SFML/readme.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SFML" TYPE FILE FILES "E:/Uni_ting/GreenhouseSim/libs/SFML/readme.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE DIRECTORY FILES "C:/Users/chri3/CLionProjects/greenhouse-sim/libs/SFML/extlibs/bin/x86/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE DIRECTORY FILES "E:/Uni_ting/GreenhouseSim/libs/SFML/extlibs/bin/x64/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "C:/Users/chri3/CLionProjects/greenhouse-sim/libs/SFML/extlibs/libs-mingw/x86/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "E:/Uni_ting/GreenhouseSim/libs/SFML/extlibs/libs-mingw/x64/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets.cmake"
-         "C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
+         "E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -70,23 +70,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES
-    "C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/SFMLConfig.cmake"
-    "C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/SFMLConfigDependencies.cmake"
-    "C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/SFMLConfigVersion.cmake"
+    "E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/SFMLConfig.cmake"
+    "E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/SFMLConfigDependencies.cmake"
+    "E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/SFMLConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release/libs/SFML/src/SFML/cmake_install.cmake")
+  include("E:/Uni_ting/GreenhouseSim/cmake-build-release/libs/SFML/src/SFML/cmake_install.cmake")
 
 endif()
 

@@ -1,5 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" C:\Users\chri3\CLionProjects\greenhouse-sim
--- Found ImGui v1.83 WIP in C:/Users/chri3/CLionProjects/greenhouse-sim/libs/imgui
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" E:\Uni_ting\GreenhouseSim
+-- Found ImGui v1.83 WIP in E:/Uni_ting/GreenhouseSim/libs/imgui
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/chri3/CLionProjects/greenhouse-sim/cmake-build-release
+-- Build files have been written to: E:/Uni_ting/GreenhouseSim/cmake-build-release

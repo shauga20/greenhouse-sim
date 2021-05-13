@@ -9,7 +9,7 @@ Power::Power(){
 void Power::getCharge(int hour, sf::RenderWindow &window) {
 
     if (hour >=13 & hour < 16) {
-        Sun_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Sun1.png");
+        Sun_texture.loadFromFile("../Sprites/Sun1.png");
         Sun_sprite.setTexture(Sun_texture, true);
         Sun_sprite.setPosition(608.f, 150.f);
         window.draw(Sun_sprite);
@@ -18,19 +18,19 @@ void Power::getCharge(int hour, sf::RenderWindow &window) {
 
 
     if (hour >=0 & hour < 5) {
-        Battery_texture4.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Power4.png");
+        Battery_texture4.loadFromFile("../Sprites/Power4.png");
         Battery_sprite4.setTexture(Battery_texture4, true);
         Battery_sprite4.setPosition(380.f, 389.4f);
         window.draw(Battery_sprite4);
     }
     else if (hour >=5 & hour < 8) {
-        Battery_texture4.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Power3.png");
+        Battery_texture4.loadFromFile("../Sprites/Power3.png");
         Battery_sprite4.setTexture(Battery_texture4, true);
         Battery_sprite4.setPosition(380.f, 389.4f);
         window.draw(Battery_sprite4);
     }
     else if (hour >=8 & hour < 12) {
-        Battery_texture4.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Power2.png");
+        Battery_texture4.loadFromFile("../Sprites/Power2.png");
         Battery_sprite4.setTexture(Battery_texture4, true);
         Battery_sprite4.setPosition(380.f, 389.4f);
         window.draw(Battery_sprite4);
@@ -38,28 +38,28 @@ void Power::getCharge(int hour, sf::RenderWindow &window) {
 
     if (hour >= 12 & hour < 13 ) {
 
-        Battery_texture1.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Power1.png");
+        Battery_texture1.loadFromFile("../Sprites/Power1.png");
         Battery_sprite1.setTexture(Battery_texture1, true);
         Battery_sprite1.setPosition(380.f, 389.f);
         window.draw(Battery_sprite1);
     }
     else if (hour >= 13 & hour < 14 ) {
 
-        Battery_texture2.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Power2.png");
+        Battery_texture2.loadFromFile("../Sprites/Power2.png");
         Battery_sprite2.setTexture(Battery_texture2, true);
         Battery_sprite2.setPosition(380.f, 389.f);
         window.draw(Battery_sprite2);
     }
     else if (hour >= 14 & hour < 15 ) {
 
-        Battery_texture3.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Power3.png");
+        Battery_texture3.loadFromFile("../Sprites/Power3.png");
         Battery_sprite3.setTexture(Battery_texture3, true);
         Battery_sprite3.setPosition(380.f, 388.f);
         window.draw(Battery_sprite3);
     }
     if (hour >= 15 ) {
 
-        Battery_texture4.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Power4.png");
+        Battery_texture4.loadFromFile("../Sprites/Power4.png");
         Battery_sprite4.setTexture(Battery_texture4, true);
         Battery_sprite4.setPosition(380.f, 389.4f);
         window.draw(Battery_sprite4);
