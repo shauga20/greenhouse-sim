@@ -1,4 +1,3 @@
-
 #include "Simulation.h"
 #include <iostream>
 #include "Plants.h"
@@ -25,7 +24,7 @@ void Simulation::Run() {
     clock_time.setFillColor(sf::Color::White);
     std::stringstream ss;
 
-    Plants Blomst;
+    Flower Flower;
     Sunflower Sunflower;
     Corn Corn;
     Rose Rose;
@@ -51,22 +50,22 @@ void Simulation::Run() {
         sf::Sprite Green(greenhouse_sprite);
         sf::Time elapTime1 = deltaClock.getElapsedTime();
         int minutes = elapTime1.asSeconds() / 0.05;
-        if (minutes >= 60) {
+        if (minutes == 60) {
             minutes = elapTime1.asSeconds() / 1;
             hour++;
             deltaClock.restart();
 
         }
-        if (hour == 21) {
+        if (hour == 24) {
             return;
         }
 
         window.draw(Green);
 
-        Blomst.grow(hour,window);
-        Sunflower.grow(hour,window);
-        Corn.grow(hour,window);
-        Rose.grow(hour,window);
+        Flower.grow(hour,window,Flower.filepath, Flower.pos,Flower.Flower_texture, Flower.Flower_sprite);
+        Sunflower.grow(hour,window,Sunflower.filepath, Sunflower.pos,Sunflower.Sunflower_texture, Sunflower.Sunflower_sprite);
+        Corn.grow(hour,window,Corn.filepath, Corn.pos,Corn.Corn_texture, Corn.Corn_sprite);
+        Rose.grow(hour,window, Rose.filepath, Rose.pos,Rose.Rose_texture, Rose.Rose_sprite);
         Container.getAmount(hour,window);
         Power.getCharge(hour,window);
 
@@ -79,5 +78,3 @@ void Simulation::Run() {
         window.display();
     }
 }
-
-

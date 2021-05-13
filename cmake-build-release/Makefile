@@ -345,6 +345,33 @@ src/Corn.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Corn.cpp.s
 .PHONY : src/Corn.cpp.s
 
+src/Flower.obj: src/Flower.cpp.obj
+
+.PHONY : src/Flower.obj
+
+# target to build an object file
+src/Flower.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Flower.cpp.obj
+.PHONY : src/Flower.cpp.obj
+
+src/Flower.i: src/Flower.cpp.i
+
+.PHONY : src/Flower.i
+
+# target to preprocess a source file
+src/Flower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Flower.cpp.i
+.PHONY : src/Flower.cpp.i
+
+src/Flower.s: src/Flower.cpp.s
+
+.PHONY : src/Flower.s
+
+# target to generate assembly for a file
+src/Flower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Flower.cpp.s
+.PHONY : src/Flower.cpp.s
+
 src/Plants.obj: src/Plants.cpp.obj
 
 .PHONY : src/Plants.obj
@@ -561,6 +588,9 @@ help:
 	@echo ... src/Corn.obj
 	@echo ... src/Corn.i
 	@echo ... src/Corn.s
+	@echo ... src/Flower.obj
+	@echo ... src/Flower.i
+	@echo ... src/Flower.s
 	@echo ... src/Plants.obj
 	@echo ... src/Plants.i
 	@echo ... src/Plants.s

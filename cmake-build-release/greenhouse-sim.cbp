@@ -1326,6 +1326,9 @@
 		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/Corn.cpp">
 			<Option target="greenhouse-sim"/>
 		</Unit>
+		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/Flower.cpp">
+			<Option target="greenhouse-sim"/>
+		</Unit>
 		<Unit filename="C:/Users/chri3/CLionProjects/greenhouse-sim/src/Plants.cpp">
 			<Option target="greenhouse-sim"/>
 		</Unit>
