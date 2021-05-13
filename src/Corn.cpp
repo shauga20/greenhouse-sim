@@ -8,32 +8,32 @@ Corn::Corn(){
 }
 void Corn::grow(int hour, sf::RenderWindow &window) {
     height = height + hour * growth_rate;
-    if (height < 1 && height > 0) {
+    if (height <= 2 && height >= 0) {
 
         stage = 1;
         Corn_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Corn1T.png");
         Corn_sprite.setTexture(Corn_texture, true);
         Corn_sprite.setPosition(580.f, 505.f);
         window.draw(Corn_sprite);
-    } else if (height < 2 && height > 1) {
+    } else if (height < 3 && height > 2) {
         stage = 2;
         Corn_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Corn2T.png");
         Corn_sprite.setTexture(Corn_texture, true);
         Corn_sprite.setPosition(576.f, 484.f);
         window.draw(Corn_sprite);
-    } else if (height < 3 && height > 2) {
+    } else if (height < 4 && height > 3) {
         stage = 3;
         Corn_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Corn3T.png");
         Corn_sprite.setTexture(Corn_texture, true);
         Corn_sprite.setPosition(573.f, 455.f);
         window.draw(Corn_sprite);
-    } else if (height < 4 && height > 3) {
+    } else if (height < 5 && height > 4) {
         stage = 4;
         Corn_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Corn4T.png");
         Corn_sprite.setTexture(Corn_texture, true);
         Corn_sprite.setPosition(572.f, 433.f);
         window.draw(Corn_sprite);
-    } else if (height > 4) {
+    } else if (height >= 5) {
         stage = 5;
         Corn_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Corn5T.png");
         Corn_sprite.setTexture(Corn_texture, true);

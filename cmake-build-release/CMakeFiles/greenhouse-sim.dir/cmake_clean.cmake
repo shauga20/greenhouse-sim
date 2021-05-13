@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/greenhouse-sim.dir/src/Container.cpp.obj"
   "CMakeFiles/greenhouse-sim.dir/src/Corn.cpp.obj"
   "CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.obj"
+  "CMakeFiles/greenhouse-sim.dir/src/Power.cpp.obj"
   "CMakeFiles/greenhouse-sim.dir/src/Rose.cpp.obj"
   "CMakeFiles/greenhouse-sim.dir/src/Simulation.cpp.obj"
   "CMakeFiles/greenhouse-sim.dir/src/Sunflower.cpp.obj"

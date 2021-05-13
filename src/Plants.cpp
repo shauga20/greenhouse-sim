@@ -9,7 +9,7 @@ Plants::Plants(){
 void Plants::grow(int hour, sf::RenderWindow &window)
 {
     height = height + hour * growth_rate;
-    if(height < 1 && height > 0)
+    if(height < 2 && height >= 0)
     {
 
         stage = 1;
@@ -18,7 +18,7 @@ void Plants::grow(int hour, sf::RenderWindow &window)
         plant_sprite.setPosition(36.f, 177.f);
         window.draw(plant_sprite);
     }
-    else if(height < 2 && height > 1)
+    else if(height < 3 && height > 2)
     {
         stage = 2;
         plant_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Plant2T.png");
@@ -26,7 +26,7 @@ void Plants::grow(int hour, sf::RenderWindow &window)
         plant_sprite.setPosition(26.f, 173.f);
         window.draw(plant_sprite);
     }
-    else if(height < 3 && height > 2)
+    else if(height <= 5 && height >=3)
     {
         stage = 3;
         plant_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Plant3T.png");
@@ -34,7 +34,7 @@ void Plants::grow(int hour, sf::RenderWindow &window)
         plant_sprite.setPosition(26.f, 164.f);
         window.draw(plant_sprite);
     }
-    else if(height > 3)
+    else if(height > 5)
     {
         stage = 4;
         plant_texture.loadFromFile("C:/Users/chri3/CLionProjects/greenhouse-sim/src/Sprites/Plant4T.png");

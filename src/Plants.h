@@ -34,7 +34,7 @@ private:
     void init();
     double height=0.0;
     int stage = 0;
-    double growth_rate = 0.0005;
+    double growth_rate = 0.0002;
     sf::Texture Sunflower_texture;
     sf::Sprite Sunflower_sprite;
 
@@ -49,7 +49,7 @@ private:
     void init();
     double height=0.0;
     int stage = 0;
-    double growth_rate = 0.01;
+    double growth_rate = 0.0002;
     sf::Texture Corn_texture;
     sf::Sprite Corn_sprite;
 
@@ -64,7 +64,7 @@ private:
     void init();
     double height=0.0;
     int stage = 0;
-    double growth_rate = 0.01;
+    double growth_rate = 0.0002;
     sf::Texture Rose_texture;
     sf::Sprite Rose_sprite;
 

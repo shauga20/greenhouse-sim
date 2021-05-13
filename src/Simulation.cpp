@@ -5,6 +5,7 @@
 #include <cstdlib>
 #include <ctime>
 #include "Container.h"
+#include "Power.h"
 //Private
 Simulation::Simulation() : window(sf::VideoMode(800, 600), "Greenhouse Simulator") {
     window.setFramerateLimit(60);
@@ -29,6 +30,7 @@ void Simulation::Run() {
     Corn Corn;
     Rose Rose;
     Container Container;
+    Power Power;
 
     while (window.isOpen()) {
 // check all the window's events that were triggered since the last
@@ -49,13 +51,13 @@ void Simulation::Run() {
         sf::Sprite Green(greenhouse_sprite);
         sf::Time elapTime1 = deltaClock.getElapsedTime();
         int minutes = elapTime1.asSeconds() / 0.05;
-        if (minutes == 60) {
+        if (minutes >= 60) {
             minutes = elapTime1.asSeconds() / 1;
             hour++;
             deltaClock.restart();
 
         }
-        if (hour == 24) {
+        if (hour == 21) {
             return;
         }
 
@@ -66,6 +68,7 @@ void Simulation::Run() {
         Corn.grow(hour,window);
         Rose.grow(hour,window);
         Container.getAmount(hour,window);
+        Power.getCharge(hour,window);
 
         ss << std::to_string(hour) << ':' << std::to_string(minutes);
         clock_time.setString(ss.str());

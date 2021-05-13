@@ -372,6 +372,33 @@ src/Plants.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Plants.cpp.s
 .PHONY : src/Plants.cpp.s
 
+src/Power.obj: src/Power.cpp.obj
+
+.PHONY : src/Power.obj
+
+# target to build an object file
+src/Power.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Power.cpp.obj
+.PHONY : src/Power.cpp.obj
+
+src/Power.i: src/Power.cpp.i
+
+.PHONY : src/Power.i
+
+# target to preprocess a source file
+src/Power.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Power.cpp.i
+.PHONY : src/Power.cpp.i
+
+src/Power.s: src/Power.cpp.s
+
+.PHONY : src/Power.s
+
+# target to generate assembly for a file
+src/Power.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\greenhouse-sim.dir\build.make CMakeFiles/greenhouse-sim.dir/src/Power.cpp.s
+.PHONY : src/Power.cpp.s
+
 src/Rose.obj: src/Rose.cpp.obj
 
 .PHONY : src/Rose.obj
@@ -537,6 +564,9 @@ help:
 	@echo ... src/Plants.obj
 	@echo ... src/Plants.i
 	@echo ... src/Plants.s
+	@echo ... src/Power.obj
+	@echo ... src/Power.i
+	@echo ... src/Power.s
 	@echo ... src/Rose.obj
 	@echo ... src/Rose.i
 	@echo ... src/Rose.s

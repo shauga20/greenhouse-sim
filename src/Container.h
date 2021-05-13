@@ -28,4 +28,28 @@ private:
 
     sf::Texture Rain_texture;
     sf::Sprite Rain_sprite;
+
+    sf::Texture PipeTH_texture;
+    sf::Sprite PipeTH_sprite;
+
+    sf::Texture PipeTHD_texture;
+    sf::Sprite PipeTHD_sprite;
+
+    sf::Texture PipeWH_texture;
+    sf::Sprite PipeWH_sprite;
+
+    sf::Texture PipeWHD_texture;
+    sf::Sprite PipeWHD_sprite;
+
+    sf::Texture PipeTV_texture;
+    sf::Sprite PipeTV_sprite;
+
+    sf::Texture PipeTVD_texture;
+    sf::Sprite PipeTVD_sprite;
+
+    sf::Texture PipeWV_texture;
+    sf::Sprite PipeWV_sprite;
+
+    sf::Texture PipeWVD_texture;
+    sf::Sprite PipeWVD_sprite;
 };
