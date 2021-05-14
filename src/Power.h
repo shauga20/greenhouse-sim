@@ -11,7 +11,6 @@ public:
 
 private:
     void init();
-    double life=100.0;
 
     sf::Texture Battery_texture1;
     sf::Sprite Battery_sprite1;

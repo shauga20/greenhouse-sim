@@ -6,31 +6,30 @@
 //Base class
 class Plants {
 public:
-    // Growth
+    // Growth function
     void grow(int hour, sf::RenderWindow &window, std::vector<std::string> filepath, double pos[][2],sf::Texture, sf::Sprite);
-    // Height
-    double getHeight();
     // constructor
     Plants();
     double growth_rate=0.0;
 private:
     double height=0.0;
-    int stage;
 };
 
 //inheritance (Derived class)
 class Flower: public Plants {
 public:
+    //Constructor
     Flower();
+    //Container for files
     std::vector<std::string> filepath = {"../Sprites/Plant1T.png", "../Sprites/Plant2T.png", "../Sprites/Plant3T.png", "../Sprites/Plant4T.png"};
+    //Setting the position of the flower
     double pos[4][2] = {{36.f, 177.f}, {26.f, 173.f}, {26.f, 184.f}, {24.f, 120.f}};
+    //Object declarations
     sf::Texture Flower_texture;
     sf::Sprite Flower_sprite;
 private:
     void init();
     double height=0.0;
-    int stage;
-
 
 };
 
@@ -45,8 +44,6 @@ public:
 private:
     void init();
     double height=0.0;
-    int stage = 0;
-
 
 };
 class Corn: public Plants {
@@ -60,7 +57,6 @@ public:
 private:
     void init();
     double height=0.0;
-    int stage;
 
 };
 class Rose: public Plants {
@@ -74,6 +70,5 @@ public:
 private:
     void init();
     double height=0.0;
-    int stage;
 
 };

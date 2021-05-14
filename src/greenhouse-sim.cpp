@@ -11,7 +11,7 @@ int main()
 {
     // create the window
     Simulation Simulation;
-    // Run simulation + place plant :)
+    // Run simulation
     Simulation.Run();
 
     return 0;

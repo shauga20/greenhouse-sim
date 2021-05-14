@@ -5,7 +5,9 @@
 
 class Simulation {
 public:
+    //constructor
     Simulation();
+    //function
     void Run();
 
 

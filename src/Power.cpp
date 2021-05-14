@@ -6,17 +6,16 @@
 Power::Power(){
     Power::init();
 }
+//Void function checking hour
 void Power::getCharge(int hour, sf::RenderWindow &window) {
 
+    //Draw sprite depending on hour
     if (hour >=13 & hour < 16) {
         Sun_texture.loadFromFile("../Sprites/Sun1.png");
         Sun_sprite.setTexture(Sun_texture, true);
         Sun_sprite.setPosition(608.f, 150.f);
         window.draw(Sun_sprite);
     }
-
-
-
     if (hour >=0 & hour < 5) {
         Battery_texture4.loadFromFile("../Sprites/Power4.png");
         Battery_sprite4.setTexture(Battery_texture4, true);
@@ -35,7 +34,6 @@ void Power::getCharge(int hour, sf::RenderWindow &window) {
         Battery_sprite4.setPosition(380.f, 389.4f);
         window.draw(Battery_sprite4);
     }
-
     if (hour >= 12 & hour < 13 ) {
 
         Battery_texture1.loadFromFile("../Sprites/Power1.png");
@@ -65,11 +63,7 @@ void Power::getCharge(int hour, sf::RenderWindow &window) {
         window.draw(Battery_sprite4);
     }
 }
-
-double Power::getPower() {
-    return life;
-}
-
+//Void function scaling the sprites
 void Power::init() {
     Battery_sprite1.scale(0.8f, 0.8f);
     Battery_sprite2.scale(0.8f, 0.8f);

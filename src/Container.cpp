@@ -1,6 +1,4 @@
 #include "Container.h"
-#include <cstdlib>
-#include <ctime>
 #include "windows.h"
 
 Container::Container(){
@@ -22,7 +20,6 @@ void Container::getAmount(int hour,sf::RenderWindow &window) {
         Rain_sprite.setPosition(144.f, 210.f);
         window.draw(Rain_sprite);
     }
-
 
     if (hour == 3 & hour < 5){
         Rain=Rain+100;
@@ -128,14 +125,7 @@ void Container::getAmount(int hour,sf::RenderWindow &window) {
         window.draw(PipeTV_sprite);
     }
 
-
-
 }
-
-double Container::WaterAmount(){
-    return Amount;
-}
-
 void Container::init() {
     Container_sprite.scale(0.55f, 0.55f);
     Container_sprite2.scale(0.4f, 0.4f);
